@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                dir('/var/lib/jenkins/workspace/node/')
+                #dir('/var/lib/jenkins/workspace/node/')
                 sh 'npm install'
             }
         }
